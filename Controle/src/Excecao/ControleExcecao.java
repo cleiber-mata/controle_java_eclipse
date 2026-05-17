@@ -12,7 +12,7 @@ public class ControleExcecao {
 		} catch (NumberFormatException e) {
 			System.out.println("Numero Inválido!!!");
 		} catch (IndexOutOfBoundsException e) {
-			System.out.println("Elemento inexistente no array.");
+			System.out.println("Elemento inexistente no array...");
 		}
 	}
 
