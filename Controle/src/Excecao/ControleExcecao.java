@@ -10,7 +10,7 @@ public class ControleExcecao {
 			numeros[10] = 100;
 			System.out.println("Numero = " + numero);
 		} catch (NumberFormatException e) {
-			System.out.println("Numero Inválido!!!!");
+			System.out.println("Numero Inválido!!!!!!");
 		} catch (IndexOutOfBoundsException e) {
 			System.out.println("Elemento inexistente no array...");
 		}
